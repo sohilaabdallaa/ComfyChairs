@@ -7,7 +7,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #F8F0E5;
-
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
@@ -21,14 +20,14 @@ body {
 }
 /*2.2 times the font-size of the root element*/
 .logo {
-  height: 6.2rem;
+  height: 4.2rem;
   margin-right:10px;
 }
 .logo-name{
   margin: 0;
-  color: #333;
+  color: #0F2C59;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -49,9 +48,9 @@ body {
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 1.4rem;
   border-radius: 15px;
-  color: #fff;
+  color: #F8F0E5;
   background-color: #0F2C59;
 }
 
@@ -67,7 +66,7 @@ body {
   background-color: #F8F0E5;
 
   /* Because we want header to be sticky later */
-  height: 9.6rem;
+  height: 5.6rem;
   padding: 0 4.8rem;
   position: relative;
 }
@@ -83,7 +82,6 @@ body {
 }
 
 .dropdown li{
-
   display: block;
 }
 .dropdown a {
