@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Your Website</title>
+    <link rel="stylesheet" href="form_Style.css">
+
+</head>
+
+<body>
+    <form method="post" action="thanks.html">
+        <h1>Create an Account</h1>
+        <div class="form-row">
+            <label for="firstName">First Name</label>
+            <label for="lastName">Last Name</label>
+        </div>
+        <div class="form-row">
+            <input type="text" name="firstName" required>
+            <input type="text" name="lastName" required>
+        </div>
+
+        <label for="mobileOrEmail">Mobile or Email</label>
+        <input type="text" name="mobileOrEmail" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" required>
+
+        <label>Gender</label>
+        <div>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label>
+        </div>
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Reset">
+        <div style="text-align: center; margin-top: 10px;">
+            <a href="login.html">Already have an account? </a>
+        </div>
+    </form>
+</body>
+
+</html>
